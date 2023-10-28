@@ -29,10 +29,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-}
+
 
 a {
   color: inherit;
@@ -54,4 +51,55 @@ ul {
   --color-burning-orange: #ff7043;
   --color-cindirella: #fde7da;
   --color-white: #fff;
+}
+
+.page {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1312px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header {
+  background-color: var(--color-black);
+}
+
+.header__container {
+  display: flex;
+  align-items: center
+}
+
+.logo__img {
+  width: 112px;
+}
+
+.mail {
+  display: block;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.12);
+  color: var(--color-white);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav__link {
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header__btn {
+  display: block;
+  border-radius: 6px;
+  background: var(--color-burning-orange);
+  color: var(--color-black);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }
